@@ -1,0 +1,7 @@
+parameters:
+#    sfr_demo_sf2_extjs.example.class: Sfr\Bundle\DemoSf2ExtjsBundle\Example
+
+services:
+#    sfr_demo_sf2_extjs.example:
+#        class: %sfr_demo_sf2_extjs.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

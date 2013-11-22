@@ -1,0 +1,23 @@
+sfr_demo_sf2_extjs_homepage:
+    pattern:  /
+    defaults: { _controller: SfrDemoSf2ExtjsBundle:Default:index }
+
+sfr_demo_sf2_extjs_user_read:
+    pattern:  /user/read
+    defaults: { _controller: SfrDemoSf2ExtjsBundle:Default:read }
+
+sfr_demo_sf2_extjs_user_create:
+    pattern:  /user/create
+    defaults: { _controller: SfrDemoSf2ExtjsBundle:Default:create }
+    requirements:
+        _method:  POST
+
+sfr_demo_sf2_extjs_user_update:
+    pattern:  /user/update
+    defaults: { _controller: SfrDemoSf2ExtjsBundle:Default:update }
+    requirements:
+        _method:  POST
+
+sfr_demo_sf2_extjs_grid:
+    pattern:  /grid
+    defaults: { _controller: SfrDemoSf2ExtjsBundle:Default:grid }

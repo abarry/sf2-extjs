@@ -1,0 +1,29 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    {% block stylesheets %}
+        <link href="{{ asset('js/ext-4.2.1.883/resources/css/ext-all-neptune-debug.css') }}" type="text/css" rel="stylesheet" />
+    {% endblock %}
+
+    {% block javascripts %}
+        <script src="{{ asset('js/ext-4.2.1.883/ext-debug.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
+    {% endblock %}
+
+    <form method="post" action="user/create">
+        <label>Nom</label>
+        <input name="firstName"/>
+
+        <label>Prénom</label>
+        <input name="lastName"/>
+
+        <label>Email</label>
+        <input name="email"/>
+
+        <label>UID</label>
+        <input name="uid"/>
+
+        <input type="submit" value="Créer">
+    </form>
+
+{% endblock %}
