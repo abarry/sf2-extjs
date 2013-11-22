@@ -1,0 +1,7 @@
+{
+    "success": true,
+    "users": [
+        {"id": 1, "firstName": 'BARRY', "lastName" : "Abdoulaye", "uid": "U124661","email": "abarry@sfr.com"},
+        {"id": 2, "firstName": 'VIGHIER', "lastName" : "Aubin", "uid": "U124662","email": "avighier@sfr.com"},
+    ]
+}
