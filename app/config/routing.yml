@@ -1,4 +1,6 @@
+sfr_demo_sf2_extjs:
+    resource: "@SfrDemoSf2ExtjsBundle/Resources/config/routing.yml"
+
 acme_hello:
     resource: "@AcmeHelloBundle/Resources/config/routing.yml"
     prefix:   /
-
